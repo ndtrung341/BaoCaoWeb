@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+html {
+	font-size: 62.5%;
+	font-family: 'Roboto', sans-serif;
+}
+body {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #705ded;
+}
+.error {
+	display: block;
+	width: 100%;
+	font-size: 1.5rem;
+	padding: 1rem;
+	margin-bottom: 1rem;
+	background-color: #ffe1df;
+}
+.success {
+	display: block;
+	width: 100%;
+	font-size: 1.5rem;
+	padding: 1rem;
+	margin-bottom: 1rem;
+	background-color: #ccfad6;
+}
+.title {
+	font-size: 3rem;
+	color: #7367f0;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.container {
+	background: #fff;
+	min-width: 350px;
+	padding: 3rem;
+	padding-bottom: 2rem;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+}
+.heading {
+	margin-bottom: 2rem;
+}
+.form-group {
+	position: relative;
+	margin-bottom: 2.5rem;
+}
+.form-group.invalid .form-control {
+	border: 1px solid #dc3545;
+}
+.form-message {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	margin-top: 5px;
+	font-size: 1.3rem;
+	color: #dc3545;
+}
+.form-remember {
+	font-size: 1.5rem;
+	display: flex;
+}
+.forgot {
+	margin-top: 1rem;
+	text-align: center;
+	font-size: 1.4rem;
+	color: #705ded;
+	font-weight: 600;
+}
+.password-show {
+	color: #ccc;
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	font-size: 2rem;
+	transform: translateY(-50%);
+}
+.form-control {
+	width: 100%;
+	padding: 10px;
+	font-size: 1.6rem;
+	outline: none;
+	border: none;
+	background: whitesmoke;
+	border: 1px solid #ccc;
+}
+.form-control:focus,
+.form-control:hover {
+	border: 1px solid #7367f0;
+}
+
+.btn {
+	width: 100%;
+	display: block;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	padding: 10px;
+}
+.btn-login {
+	background: #705ded;
+	color: #fff;
+	font-size: 1.7rem;
+	transition: 0.3s;
+}
+.btn-login:hover {
+	box-shadow: 0 8px 25px -8px #7367f0;
+}
+.notice {
+	margin-top: 1rem;
+	font-size: 1.4rem;
+	text-align: center;
+}
+.notice > a {
+	color: #7367f0;
+}
+.swal2-popup {
+	font-size: 1.5rem !important;
+}
